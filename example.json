@@ -1,0 +1,20 @@
+{
+    "weight_decay": 0.0001,
+    "start_neuron_number": 16, 
+    "optimizer_name": "Adam",
+    "type_lr_func": "Cosine",
+    "max_lr": 0.001,
+    "warmup_steps": 1500, 
+    "max_number_of_steps": 20000, 
+    "epochs": 22,
+    "save_model_tensorboard": "./models/first_model_py",
+    "style_layer_names": [
+        "conv2d_2", "conv2d_3"
+    ],
+    "content_layer_name" : "max_pooling2d_3",
+    "mae_valid_weight": 1.0,
+    "mae_hole_weight": 6.0,
+    "perceptual_weight" : 0.05, 
+    "style_weight": 1.0,
+    "tv_weight": 0.0
+}
