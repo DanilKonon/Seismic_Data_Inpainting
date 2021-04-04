@@ -18,7 +18,7 @@ TODO: добавить ссылку на исходный сет
 
 Пример реконструкции сейсмокуба можно увидеть в папке images (был вырезан прямоугольник в центре). Показаны 2D слайсы 3D куба. 
 
-![пример реконструкции](/Users/danilkononykhin/SeismicCode/images/example_reconstruction.gif)
+![пример реконструкции](/images/example_reconstruction.gif)
 
 
 
